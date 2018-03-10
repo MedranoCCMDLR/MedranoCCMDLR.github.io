@@ -1,0 +1,210 @@
+ <!-- Compiled and minified CSS -->
+ <!DOCTYPE html>
+ <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript"></script>
+ <!-- ICONOS MATERIALIZE-->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+ <!-- PARALLAX INICIACION-->
+<script type="text/javascript">
+$(document).ready(function(){ $('.parallax').parallax(); });
+</script>
+
+<!-- sideNav INICIACION -->
+<script>
+(function($){
+  $(function(){
+
+    $('.button-collapse').sideNav();
+    $('.button-collapse').click(removeOverlay);
+    function removeOverlay() {
+  $('div[id^=sidenav-overlay]').remove();
+}
+
+  }); // end of document ready
+})(jQuery); // end of jQuery name space;
+</script>
+
+<!-- dropProductos navBar-->
+<script>
+$('.dropdown-button').dropdown('open');
+</script>
+
+<!-- HTML -->
+<html>
+<style>
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: black;
+	}
+	.size-div{
+		height: 300px;
+		width;100%;
+	}
+	h1{
+
+	}
+  i{
+  	color:black;
+  }
+  li{
+  	color:white;
+  }
+  ol{
+  	color:black;
+  }
+  .text-center{
+  	color:white;
+  	font-family: Helvetica;
+  	font-style: oblique;
+  }
+
+</style>
+
+<body>
+<!-- NAVBAR DE LA PAGINA -->
+<div id="navbar"class="navbar-fixed" >
+	<nav>
+		<div class="nav-wrapper " style="background:white">
+			<a href="#!" class="brand-logo"style="color:black">revingtron.com</a>
+			
+
+			<ul class="right hide-on-med-and-down">
+				 <li><a href="#" style="color:black">Inicio</a></li>
+				 <li><a href="#"style="color:black">Acerca de..</a></li>
+				 <li><a href="#"style="color:black">Equipo</a></li>
+				 <li><a href="#"style="color:black">Contacto</a></li>
+				 <li><a class='dropdown-button btn' data-activates='dropProductos'href="#"style="background:gray; color:black;">Productos</a></li>
+				 	<ul id='dropProductos' class='dropdown-content'>
+						 <li><a href="#" style="color:black">Producto 1</a></li>
+						 <li><a href="#" style="color:black">Producto 2</a></li>
+						 <li><a href="#" style="color:black">Producto 3</a></li>
+				 	</ul>
+			</ul>
+		
+
+			<ul id="slide-out" class="side-nav">
+			     <li><a href="www.youtube.com" style="color:black">Inicio</a></li>
+				 <li><a href="#" style="color:black">Acerca de..</a></li>
+				 <li><a href="#" style="color:black">Equipo</a></li>
+				 <li><a href="#" style="color:black">Contacto</a></li>
+				 <li><div class="divider"></div></li>
+				 <li><a class="subheader">Productos</a></li>
+				 <li><a href="#" style="color:black">Producto 1</a></li>
+				 <li><a href="#" style="color:black">Producto 2</a></li>
+				 <li><a class="waves-effect"href="#" style="color:black">Producto 3</a></li>
+			</ul>
+
+<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        
+		</div>
+
+	</nav>
+</div>		
+
+<!-- CENTRO DE PAGINA -->
+<div class="row size-div">
+	<div class="col-s6-m8-l10">
+		<div class="icon-block">
+			<h1 class="light text-center">
+				EN MANTENIMIENTO
+			</h1>
+		</div>
+	</div>
+	<div class="col-s6-m4-l2">
+		<div class="center"><h4 style="color:white">Lista de Tareas</h4></div>
+		<div class="icon-block text-center">
+				<ul>
+					<li>Terminar Pagina Web</li>
+					<li>Colores Principales</li>
+					<li>Logotipo</li>
+				</ul>
+		</div>
+	</div>
+</div>		
+
+<!--PARALLAX 1 -->
+ <div class="parallax-container">
+    <div class="parallax"><img src="https://wallpaperdata.com/wp-content/uploads/data/2018/1/10/spacex-wallpaper-1920x1080-large-WTG31012324.jpg" style="display: block; transform: translate3d(-100%, 1223px, 100px);"></div>
+  </div>
+
+<!-- PARTE 2-->
+  <div class="row size-div">
+	<div class="col s6 m10 l10">
+		<div class="icon-block">
+			<p class="light text-center">
+				'm tired of being what you want me to be
+				Feeling so faithless, lost under the surface
+				I don't know what you're expecting of me
+				Put under the pressure of walking in your shoes
+				Caught in the undertow, just caught in the undertow
+				Every step that I take is another mistake to you
+				Caught in the undertow, just caught in the undertow
+				
+				Can't you see that you're smothering me?
+				Holding too tightly, afraid to lose control
+				'Cause everything that you thought I would be
+				Has fallen apart right in front of you
+				Caught in the undertow, just caught in the undertow
+				Every step that I take is another mistake to you
+				Caught in the undertow, just caught in the undertow
+				And every second I waste is more than I can take!
+			</p>
+		</div>
+	</div>
+	<div class="col s6 m2 l2">
+		<div class="icon-block text-center">
+		
+				<ul>
+					<li>Valores</li>
+					<li>Mision</li>
+					<li>ANOSEQUEMAS</li>
+				</ul>
+			
+		</div>
+	</div>
+</div>
+<!-- PARALLAX 2-->
+ <div class="parallax-container">
+    <div class="parallax"><img src="https://wallpaperdata.com/wp-content/uploads/data/2018/1/10/spacex-wallpaper-1920x1080-large-WTG31012324.jpg" style="display: block; transform: translate3d(-100%, 0px, 0px);"></div>
+  </div>
+
+
+<!--FOOTER DE LA PAGINA-->
+<footer class="page-footer" style="background:white">
+	<div class="container">
+		<div class="row">
+			<div class="col-14-s12 left hide-on-med-down">
+				<i><img src="http://pngimages.net/sites/default/files/twitter-logo-png-image-78974.png" alt="Twitter Logo" style="width:35px"></i>
+				<i><img src="https://png.icons8.com/metro/1600/facebook.png" alt="Facebook Logo" style="width:35px"></i>
+				<i><img src="https://png.icons8.com/windows/40/000000/instagram-new.png" alt="Instagram Logo" style="width:35px"></i>
+				<i><img src="https://png.icons8.com/small/40/000000/gmail-login.png" alt="Gmail Logo" style="width:35px"></i>
+			</div>
+			<div class="col-10-s12 right hide-on-med-down">
+				<ol type="I">
+					<ol>correo@---------</ol>
+					<ol>6677889900</ol>
+					<ol>Direccion</ol>
+				</ol>
+			</div>
+		</div>
+		<div class="footer-copyright">
+            <div class="container black-text">
+           revingtron.com 
+            </div>
+            <a class="gray-text right">En mantenimiento </a>
+            
+          </div>
+	</div>
+</footer>
+
+</body>
+</html>
